@@ -1,0 +1,9 @@
+<div class="cards">
+  <app-card
+    *ngFor="let card of cards"
+    [name]="card.name"
+    [description]="card.description"
+    [showButton]="card.showButton"
+    [cardWidth]="card.cardWidth"
+  ></app-card>
+</div>

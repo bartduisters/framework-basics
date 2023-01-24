@@ -1,0 +1,9 @@
+<div class="card" [ngStyle]="{
+  width: cardWidth
+}">
+  <div class="card-body">
+    <h5 class="card-title">{{ name }}</h5>
+    <p class="card-text">{{ description }}</p>
+    <a *ngIf="showButton" href="#" class="btn btn-primary">Details</a>
+  </div>
+</div>
